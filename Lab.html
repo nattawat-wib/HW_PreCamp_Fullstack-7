@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun&display=swap" rel="stylesheet">
+    <style>
+        .table-style {
+            font-family: 'Sarabun', sans-serif;
+            background-color: #FAD7A0;
+            color: #000000;
+            text-align: center;
+            font-size: 20px;
+            margin: 50px auto 50px auto;
+        }
+
+        .table-text {
+            padding: 8px 8px 8px 8px;
+        }
+
+        .table-description {
+            font-size: 20px;
+            text-align: left;
+            padding: 8px 8px 8px 8px;
+        }
+
+        body {
+            background-color: #D6EAF8;
+        }
+    </style>
+</head>
+
+
+
+<body>
+    <p class="table-style"> Name : nattawat wiboonkosol <br>
+        Email : for.codecamp@gmail.com
+    </p>
+
+    <!--======================= Table 1 ============================-->
+    <table class="table-style" border="1">
+        <thead>
+            <tr>
+                <th colspan="3"> 1. attribute </th>
+            </tr>
+            <tr>
+                <th> Tag Name </th>
+                <th> Attribute </th>
+                <th> Description </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> &lt;h> </td>
+                <td class="table-description"> ไม่มี attribute เจาะจง ใช้ได้แค่ Global attribute </td>
+                <td class="table-description">
+                    -
+                </td>
+            </tr>
+            <tr>
+                <td> &lt;p> </td>
+                <td class="table-description"> ไม่มี attribute เจาะจง ใช้ได้แค่ Global attribute </td>
+                <td class="table-description">
+                    -
+                </td>
+            </tr>
+            <tr>
+                <td> &lt;div> </td>
+                <td class="table-description"> ไม่มี attribute เจาะจง ใช้ได้แค่ Global attribute </td>
+                <td class="table-description">
+                    -
+                </td>
+            </tr>
+            <tr>
+                <td> &lt;img> </td>
+                <td>
+                    alt <br>
+                    height <br>
+                    ismap <br>
+                    onabort <br>
+                    onload <br>
+                    sizes <br>
+                    src <br>
+                    srcset <br>
+                    usemap <br>
+                    width <br>
+                </td>
+                <td class="table-description">
+                    alt : ใช้เพื่อใส่คำอธิบายรูปภาพ<br>
+                    height : กำหนดความสูง ใช้ได้ทั้งหน่วย px และ % <br>
+                    ismap : ใช้กำหนดรูปภาพ image map, รับค่าตำแหน่งที่ user คลิกที่รูปบนหน้าจอ <br>
+                    onabort :ใช้กำหนดค่า เพื่อให้ tag นั้นดำเนินการบางอย่างเมื่อมีการยกเลิกการทำงาน เช่น หยุดดาวโหลด
+                    <br>
+                    onload : ใช้กำหนดค่า เพื่อให้ tag นั้นดำเนินการบางอย่างหลังจากโหลดหน้าเว็บสมบูรณ์ <br>
+                    sizes : กำหนดขนาดโดยรวมของรูปภาพที่จะให้แสดงผล <br>
+                    src : กำหนดที่อยู่หรือ source ของ data ที่จะใช้แสดง <br>
+                    srcset : ระบุ url ของรูปภาพสามารถกำหนดได้หลายไฟล์ <br>
+                    usemap : ใช้ระบุชื่อ map โดยต้องมี #นำหน้าชื่อmap <br>
+                    width : กำหนดความกว้าง ใช้ได้ทั้งหน่วย px และ % <br>
+                </td>
+            </tr>
+            <tr>
+                <td> &lt;a> </td>
+                <td>
+                    download <br>
+                    href <br>
+                    hreflang <br>
+                    media <br>
+                    rel <br>
+                    target <br>
+                    type <br>
+                </td>
+                <td class="table-description">
+                    download : ใช้กำหนดให้เมื่อคลิกที่ลิงค์ที่ทำการดาวโหลดอัตโนมัติ <br>
+                    href : กำหนดที่อยู่ url ที่จะ link ไป <br>
+                    hreflang : ใช้ในการระบุภาษา เนื้อหา กลุ่มเป้าหมาย มีประโยชน์ในด้าน SEO <br>
+                    media : ใช้กำหนด media ที่ต้องการเชื่อมต่อกับลิงค์นี้เมื่อ user ทำการคลิก <br>
+                    rel : ใช้กำหนดความสัมพันธ์ระหว่างเอกสารปัจจุบัน กับเอกสารที่เชื่อมโยง <br>
+                    target : กำหนดปลายทางหลังจากดำเนินการ <br>
+                    type : ประเภทของ data ที่จะรับ input เข้ามา<br>
+                </td>
+            </tr>
+            <tr>
+                <td> &lt;img> </td>
+                <td>
+                    alt <br>
+                    height <br>
+                    ismap <br>
+                    onabort <br>
+                    onerror <br>
+                    onload <br>
+                    sizes <br>
+                    src <br>
+                    srcset <br>
+                    usemap <br>
+                    width <br>
+                </td>
+                <td class="table-description">
+                    alt : ใช้เพื่อใส่คำอธิบายรูปภาพ<br>
+                    height : กำหนดความสูง ใช้ได้ทั้งหน่วย px และ % <br>
+                    ismap : ใช้กำหนดรูปภาพ image map, รับค่าตำแหน่งที่ user คลิกที่รูปบนหน้าจอ <br>
+                    onabort :ใช้กำหนดค่า เพื่อให้ tag นั้นดำเนินการบางอย่าเมื่อมีการยกเลิกการทำงาน เช่น หยุดดาวโหลด <br>
+                    onerror :ใช้กำหนดค่า เพื่อให้ tag นั้นดำเนินการบางอย่างเมื่อมี error เกิดขึ้น <br>
+                    onload : ใช้กำหนดค่า เพื่อให้ tag นั้นดำเนินการบางอย่างหลังจากโหลดหน้าเว็บสมบูรณ์ <br>
+                    sizes : กำหนดขนาดโดยรวมของรูปภาพที่จะให้แสดงผล <br>
+                    src : กำหนดที่อยู่หรือ source ของ data ที่จะใช้แสดง <br>
+                    srcset : ใช้กำหนดการแสดงรูปภาพให้เหมาะสมกับ ขนาดหน้าจอ device ที่ user กำลังใช้งานอยู่ได้ โดยอิงจาก
+                    hint ที่ dev กำหนด <br>
+                    usemap : ใช้ระบุชื่อ map โดยต้องมี #นำหน้าชื่อmap <br>
+                    width : กำหนดความกว้าง ใช้ได้ทั้งหน่วย px และ % <br>
+                </td>
+            </tr>
+            <tr>
+                <td> &lt;ul> </td>
+                <td class="table-description"> ไม่มี attribute เจาะจง ใช้ได้แค่ Global attribute </td>
+                <td class="table-description"></td>
+            </tr>
+            <tr>
+                <td> &lt;ol> </td>
+                <td>
+                    reversed <br>
+                    start <br>
+                </td>
+                <td class="table-description">
+                    reversed : ใช้กลับลำดับของข้อมูล <br>
+                    start : ใช้กำหนดค่าตัวเลขเริ่มต้นใน order list ในกรณีที่ต้องการเริ่มจากเลขที่ไม่ใช่ 1. <br>
+                </td>
+            </tr>
+            <tr>
+                <td> &lt;table> </td>
+                <td> border </td>
+                <td class="table-description">
+                    border : ใช้กำหนดความหนาของขอบตาราง
+                </td>
+            </tr>
+            <tr>
+                <td> &lt;form> </td>
+                <td>
+                    accept-charset <br>
+                    action <br>
+                    autocomplete <br>
+                    enctype <br>
+                    method <br>
+                    name <br>
+                    novalidate <br>
+                    onreset <br>
+                    onsubmit <br>
+                    rel <br>
+                    target <br>
+                </td>
+                <td class="table-description">
+                    accept-charset : ใช้เพื่อกำหนดว่าเป็นการ encoding charset แบบไหนใน form เช่น UTF-8<br>
+                    action : กำหนดไฟล์ที่จะรับข้อมูลจากฟอร์มเพื่อไปประมวลผลที่ฝั่ง Server<br>
+                    autocomplete : ใช้ระบุว่าจะให้เปิดหรือปิดคำสั่ง autocomplete ในกล่องข้อความนั้น <br>
+                    enctype : เป็นการเช็คเงื่อนไขของข้อมูลก่อนส่งออกจากฟอร์มไปตามที่ระบุใน คุณสมบัติ action <br>
+                    method : รูปแบบการจัดการกับ data ใน form ใช้เพียง get post <br>
+                    name : ชื่อของ element นั้นๆ <br>
+                    novalidate : ใช้เพื่อระบุว่าไม่ต้องตรวจสอบความถูกต้องของข้อมูลเมื่อกด Submit <br>
+                    onreset : ใช้กำหนดค่า เพื่อให้ tag นั้นดำเนินการบางอย่างเมื่อมีการ reset <br>
+                    onsubmit : ใช้กำหนดค่า เพื่อให้ tag นั้นดำเนินการบางอย่างเมื่อมีการ submit <br>
+                    rel : ใช้กำหนดความสัมพันธ์ระหว่างเอกสารปัจจุบัน กับเอกสารที่เชื่อมโยง <br>
+                    target : กำหนดปลายทางหลังจากดำเนินการ <br>
+                </td>
+            </tr>
+            <tr>
+                <td> &lt;button> </td>
+                <td>
+                    autofocus <br>
+                    disabled <br>
+                    form <br>
+                    formaction <br>
+                    name <br>
+                    type <br>
+                    value <br>
+                </td>
+                <td class="table-description">
+                    autofocus : ใช้เพื่อระบุให้เบราว์เซอร์ focus อัตโนมัติเมื่อหน้าเว็บโหลดเสร็จ <br>
+                    disabled : lock ไม่ให้ field นี้ input หรือ output ข้อมูลได้ <br>
+                    form : ใช้เพื่อระบุว่า &lt;input> เป็นของฟอร์มไหน (ระบุมากกว่า 1 ฟอร์มได้) กรณีไม่อยู่ภายใน Tag
+                    &lt;form> <br>
+                    formaction : ใช้เพื่อระบุชื่อไฟล์ที่จะส่งไปประมวลผลเมื่อกด Submit แล้ว formaction จะไปแทนที่กับ
+                    Attribute action ใน &lt;form> ใช้กับ Input ประเภท submit และ image <br>
+                    name : ชื่อของ element นั้นๆ <br>
+                    type : ประเภทของ data ที่จะรับ input เข้ามา <br>
+                    value : กำหนดค่าที่จะส่งให้ form <br>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <table class="table-style" border="1">
+        <thead>
+            <tr>
+                <th colspan="3"> Global Attributes </th>
+            </tr>
+            <tr>
+                <th> Attribute </th>
+                <th> Description </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> accesskey </td>
+                <td class="table-description">
+                    ใช้ระบุ shortcut เพื่อ fosuc หรือ active tag นั้นๆ
+                </td>
+            </tr>
+            <tr>
+                <td> class </td>
+                <td class="table-description">
+                    ใช้เพื่อเพิ่ม class ของ css เข้ามาใน tag
+                </td>
+            </tr>
+            <tr>
+                <td> contenteditable </td>
+                <td class="table-description">
+                    ตั้งค่าให้ user สามารถกำหนดค่าของ element นั้นๆได้ผ่านเว็บบราวเซอร์
+                </td>
+            </tr>
+            <tr>
+                <td> data-* </td>
+                <td class="table-description">
+                    ใช้เพื่อเก็บค่าใดค่าหนึ่งไว้ใน tag สำหรับใช้งานต่อไป เช่น เขียน script
+                </td>
+            </tr>
+            <tr>
+                <td> dir </td>
+                <td class="table-description">
+                    ใช้บอกลำดับของข้อมูล เนื้อหาใน webpage นั้น ๆ ที่มีการเรียกใช้
+                </td>
+            </tr>
+            <tr>
+                <td> draggable </td>
+                <td class="table-description">
+                    ใช้กำหนด element ให้สามารถเคลื่อนย้ายได้
+                </td>
+            </tr>
+            <tr>
+                <td> hidden </td>
+                <td class="table-description">
+                    ใช้กำหนดการส่งค่าตัวแปรผ่าน form รูปแบบหนึ่ง
+                </td>
+            </tr>
+            <tr>
+                <td> id </td>
+                <td class="table-description">
+                    ใช้เพื่อกำหนดอัตลักษณ์หรือชื่อเฉพาะสำหรับอ้างอิงตัวตนของ Element ใดๆเพียง element
+                    เดียวในหน้าเว็บนั้น
+                </td>
+            </tr>
+            <tr>
+                <td> lang </td>
+                <td class="table-description">
+                    ใช้เพื่อกำหนดภาษาให้กับ tag นั้นๆ
+                </td>
+            </tr>
+            <tr>
+                <td> spellcheck </td>
+                <td class="table-description">
+                    กำหนดว่า element นั้นจะให้ทำการ spellcheck หรือไม่
+                </td>
+            </tr>
+            <tr>
+                <td> style </td>
+                <td class="table-description">
+                    ใช้เพื่อเพิม css เข้ามาใน tag
+                </td>
+            </tr>
+            <tr>
+                <td> tabindex </td>
+                <td class="table-description">
+                    ใช้กำหนดลำดับการ focus ของ element เมื่อเรากด tab
+                </td>
+            </tr>
+            <tr>
+                <td> title </td>
+                <td class="table-description">
+                    ใช้กำหนดค่าข้อความที่จะแสดงเมื่อเรานำเมาส์ไปวางบน element นั้นๆ
+                </td>
+            </tr>
+            <tr>
+                <td> translate </td>
+                <td class="table-description">
+                    ใช้กำหนดว่า จะแปลภาษให้อัตโนมัติหรือไม่
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <!--============================= Table 2 =========================================-->
+    <table class="table-style" border="1">
+        <thead>
+            <tr>
+                <th colspan="3"> 2.differentiation tag </th>
+            <tr>
+                <th> Tag </th>
+                <th> Similar </th>
+                <th> Difference </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    &lt;hr> & &lt;br>
+                </td>
+                <td>ใช้เว้นพื้นที่ว่างสำหรับ element 2 สิ่ง</td>
+                <td class="table-description">
+                    hr : ใช้เส้นในการแบ่ง <br>
+                    br : เว้นพื้นที่ว่างไว้</td>
+            </tr>
+            <tr>
+                <td>
+                    &lt;ul> & &lt;ol>
+                </td>
+                <td> สำหรับทำ list รายการเพื่อแสดงในหน้าเว็บ </td>
+                <td class="table-description">
+                    ul : ใช้จุด (dot) ในการเริ่มต้น list <br>
+                    or : ใช้ตัวเลข (number) ในการเริ่มต้น list
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    &lt;Select> & <br> &lt;checkbox> & <br> &lt;radio button>
+                </td>
+                <td> ใช้ทำรายการเพื่อให้ user เลือก </td>
+                <td class="table-description">
+                    select : เป็นเมนูแบบ dropdown ลงมาเลือกได้อย่างเดียว <br>
+                    checkbox : เป็นเมูนแบบ list เลือกได้มากกว่า 1 รายการ <br>
+                    ratio : เป็นเมนูแบบ list เลือกเได้พียง 1 รายการ
+                </td>
+            </tr>
+            <tr>
+                <td> &lt;div> & &lt;span> </td>
+                <td> สำหรับแยก element 2 สิ่งออกจากกัน </td>
+                <td class="table-description">
+                    div : ทำงานแบบ block level ตัดขึ้นบรรทัดใหม่ทันทีหากปิด tag <br>
+                    span : ทำงานแบบ inline level ยังคงอยู่ในบรรทัดเดิมแม้ปิด tag
+                </td>
+            </tr>
+            <tr>
+                <td> &lt;script> & &lt;style> </td>
+                <td> สำหรับเรียกใช้งานส่วนเสริมเพิ่มเติม </td>
+                <td class="table-description">
+                    scrpit : สำหรับเรียกใช้งานภาษา javascript <br>
+                    style : สำหรับเรียกใช้งาน CSS
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <!--========================= table 3 ============================================-->
+    <table class="table-style" border="1">
+        <thead>
+            <tr>
+                <th colspan="2"> 3. input type </th>
+            </tr>
+            <tr>
+                <th> Type </th>
+                <th> Description </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> button </td>
+                <td class="table-description"> ใช้สร้างปุ่มเพื่อเตรียมรับ input </td>
+            </tr>
+            <tr>
+                <td> checkbox </td>
+                <td class="table-description"> รับ input แบบ list สิ่งที่ user เลือก </td>
+            </tr>
+            <tr>
+                <td> color </td>
+                <td class="table-description"> รับ input โดยให้ user เลือกจากสี </td>
+            </tr>
+            <tr>
+                <td> date </td>
+                <td class="table-description"> รับ input โดยให้ user เลือกจากวันที่ </td>
+            </tr>
+            <tr>
+                <td> datetime-local </td>
+                <td class="table-description"> รับ input โดยให้ user เลือกวันที่และเวลาโดยอ้างอิง time zone </td>
+            </tr>
+            <tr>
+                <td> email </td>
+                <td class="table-description"> รับ input เป็น email จาก user </td>
+            </tr>
+            <tr>
+                <td> file </td>
+                <td class="table-description"> รับ input เป็นไฟล์ประเภทต่างๆจาก user </td>
+            </tr>
+            <tr>
+                <td> hidden </td>
+                <td class="table-description"> ใช้สำหรับ developer ตั้งค่าข้อมูลที่ user ไม่สามารถดูและแก้ไขได้ </td>
+            </tr>
+            <tr>
+                <td>image </td>
+                <td class="table-description"> ใช้แสดงผลรูปภาพและทำหน้าที่เหมือน summit button </td>
+            </tr>
+            <tr>
+                <td> month </td>
+                <td class="table-description"> รับ input เป็นข้อมูลประเภทเดือนจาก user </td>
+            </tr>
+            <tr>
+                <td> number </td>
+                <td class="table-description"> รับ input เป็นตัวเลข </td>
+            </tr>
+            <tr>
+                <td> password </td>
+                <td class="table-description"> รับ input เป็นรหัสผ่าน </td>
+            </tr>
+            <tr>
+                <td> radio </td>
+                <td class="table-description"> สร้าง list ตัวเลือกเพื่อรับข้อมูลจากสิ่งที่ user เลือก เพียง 1 รายการ
+                </td>
+            </tr>
+            <tr>
+                <td> range </td>
+                <td class="table-description"> สร้างแถบเพื่อให้ user กำหนดค่าของ data ที่จะรับ input </td>
+            </tr>
+            <tr>
+                <td> reset </td>
+                <td class="table-description"> สำหรับ user reset ค่าที่จะ input </td>
+            </tr>
+            <tr>
+                <td> search </td>
+                <td class="table-description"> สำหรับ user input ข้อมูลที่ต้องการค้นหาจาก data base</td>
+            </tr>
+            <tr>
+                <td> submit </td>
+                <td class="table-description"> ใช้เพื่อกดส่งข้อมูลไปประมวลผลต่อใน backend </td>
+            </tr>
+            <tr>
+                <td> tel </td>
+                <td class="table-description"> รับ input เป็นเบอร์โทรศัพท์ </td>
+            </tr>
+            <tr>
+                <td> text </td>
+                <td class="table-description"> รับ input เป็นข้อความ </td>
+            </tr>
+            <tr>
+                <td> time </td>
+                <td class="table-description"> รับ input เป็นเวลา </td>
+            </tr>
+            <tr>
+                <td> url </td>
+                <td class="table-description"> รับ input เป็น url </td>
+            </tr>
+            <tr>
+                <td> week </td>
+                <td class="table-description"> รับ input เป็นข้อมูลประเภทสัปดาห์ </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <!--====================================== Tag with Text =====================================-->
+    <table class="table-style" border="1" >
+        <thead>
+            <tr>
+                <th colspan="2">
+                    Tag with Text
+                </th>
+            </tr>
+            <tr>
+                <th> &lt;tag </th>
+                <th>result</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> &lt;strong> </td>
+                <td  class="table-description" > <strong> lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. </strong> </td>
+            </tr>
+            <tr>
+                <td> &lt;label> </td>
+                <td  class="table-description" > <label> lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. </label> </td>
+            </tr>
+            <tr>
+                <td> &lt;del> </td>
+                <td  class="table-description" > <del> lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. </del> </td>
+            </tr>
+            <tr>
+                <td> &lt;b> </td>
+                <td  class="table-description" > <b> lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. </b> </td>
+            </tr>
+            <tr>
+                <td> &lt;em> </td>
+                <td  class="table-description" > <em> lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. </em> </td>
+            </tr>
+            <tr>
+                <td> &lt;mark> </td>
+                <td  class="table-description" > <mark> lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. </mark> </td>
+            </tr>
+            <tr>
+                <td> &lt;i> </td>
+                <td  class="table-description" > <i> lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. </i> </td>
+            </tr>
+            <tr>
+                <td> &lt;sub> </td>
+                <td  class="table-description" > <sub> lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. </sub> </td>
+            </tr>
+            <tr>
+                <td> &lt;sup> </td>
+                <td  class="table-description" > <sup> lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. </sup> </td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
