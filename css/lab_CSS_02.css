@@ -1,7 +1,33 @@
 
+ body {
+    background-color: #EBF5FB ;
+    font-family: 'Sarabun', sans-serif;
+}
+
 .student-info {
     font-size: 25px;
     color: #A569BD; 
     text-align: center;
     background-color: #F7DC6F;
+}
+
+.grid-container {
+    display: grid;
+    grid-template: auto / auto;
+    margin: auto;
+    max-width: 950px;
+}
+
+.item {
+    display: grid;
+    color:#D68910  ;
+    margin: auto;
+    text-align: center;
+}
+
+.img-responsive {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 30px auto;
 }

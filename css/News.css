@@ -1,0 +1,118 @@
+body {
+    font-family: 'Sarabun', sans-serif;
+    margin: 0px;
+}
+
+/* ============== parent container ===============*/
+.head-logo {
+    display: grid;
+    max-width: 976px;
+    margin: 5px auto;
+}
+
+
+.article {
+    display: grid;
+    grid-template: auto / auto auto ;
+    max-width: 976px;
+    margin: auto;
+}
+
+.news {
+    display: grid;
+    grid-template: 200px 200px 200px 200px 200px / auto auto;
+    width: 661px;
+    padding-right: 16px ;
+    padding-top: 16px ;
+}
+
+/* ============== child container ===============*/
+.navbar-logo {
+    display: grid;
+    margin: 0px auto;
+    background-color: #bb1919;
+}
+
+.navbar-menu {
+    display: grid;
+    margin: 0px auto;
+    background-color: #a91717;
+}
+
+.alsoLike {
+    flex-wrap: wrap;
+    background-color: #ededed;
+    width: 314px;
+    padding: 16px ;
+}
+
+.news-image{
+grid-column: 247;
+padding: 16px;
+}
+
+.news-detail{
+    grid-column: 413;
+    padding: 16px;
+}
+
+.footer {
+    display: block;
+    background-color: #252528;
+}
+
+/* ============== row ===============*/
+.nav-center {
+    width: 1000px;
+    margin: auto;
+}
+
+.menu {
+    margin-left: 0px;
+    color: white;
+    background-color: #a91717;
+}
+
+ul {
+    padding-left: 5px;
+}
+
+ul li {
+    list-style: none;
+}   
+
+li{
+    display: inline;
+    word-spacing: 20px;
+}
+
+.footer-center {
+    display: block;
+    color: white;
+    width: 1000px;
+    margin: auto;
+}
+
+/* ============== iamge ===============*/
+.img-nav {
+    width: 27%;
+    height: auto;
+    margin: 0px;
+    padding-left: 5px;
+}
+
+.img-logo {
+    width: 9%;
+    height: auto;
+    margin: auto;
+}
+
+.img-also {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.thai {
+    grid-column: 1 / span 2 ;
+}
