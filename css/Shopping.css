@@ -1,0 +1,105 @@
+body {
+    font-family: 'Sarabun', sans-serif;
+    margin: 0px;
+}
+
+/* ==================== container ====================== */
+.center {
+    width: 1130px;
+    margin: auto;
+}
+
+.detail-center {
+    display: grid;
+    grid-template-columns : auto auto;
+    width: 1130px;
+    margin: auto;
+}
+
+.head-menu-bar {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    background-color: #f8f9fa ;
+    list-style: none;
+    margin-left: auto;
+}
+
+.head-menu-list {
+    color: #b5b0b2;
+    display: inline;
+    padding-right: 20px;
+}
+
+.search-row {
+    display: flex-start;
+    flex-flow: row;
+    flex-wrap: wrap;
+    margin: 10px auto;
+}
+
+.detail {
+    display: grid;
+    grid-template: auto auto / 500 630 ;
+    background-color: #181613;
+    margin: auto;
+}
+
+.goods-lits {
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 276 px;
+    margin: 20px ;
+}
+
+.img-big {
+display: block;
+margin-right: 20px;
+}
+
+.shopping-list {
+    list-style: none;
+    color: #aaafbf;
+    padding: 10px;
+}
+
+.footer {
+    
+}
+
+/* ==================== image ====================== */
+.img-logo {
+    width: 15%;
+    height: auto;
+    padding-top: 20px ;
+    margin-right: 50px;
+}
+
+.advert-img {
+    width: 100%;
+    height: auto;
+    padding: 20px ;
+}
+
+/* ==================== Element ==================== */
+#head-list  {
+    text-align: right;
+}
+
+#detail {
+  
+}
+
+.search-bar {
+    width: 750px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 30px;
+    margin-right: 60px;
+}
+
+.icon-shop {
+    font-size: 30px;
+    font-weight: bold;
+    color: #aaafbf;
+}
